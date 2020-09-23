@@ -1,0 +1,108 @@
+[Root]
+Most Recent Package=SP01_xStoredProced Install
+
+
+[Package|SP01_xStoredProced Install|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Rodrigo\GeradorStoredProcedure\Package
+RA Server Support=Yes
+
+[Package|SP01_xStoredProced Install|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SP01_xStoredProced Install|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SP01_xStoredProced Install|Files Found]
+
+[Package|SP01_xStoredProced Install|Files Released]
+
+[Package|SP01_xStoredProced Install|Missing Dependency Information]
+
+[Package|SP01_xStoredProced Install|Out-of-Date Dependency Information]
+
+[Package|SP01_xStoredProced Install|Files Added]
+C:\WINDOWS\SYSTEM\AutPrx32.dll=This file is needed for RA server support.
+C:\WINDOWS\SYSTEM\AutMgr32.exe=This file is needed for RA server support.
+C:\WINDOWS\SYSTEM\RACMgr32.exe=This file is needed for RA server support.
+
+[Package|SP01_xStoredProced Install|Files Removed]
+
+[Package|SP01_xStoredProced Install|Files In Project]
+C:\Rodrigo\GeradorStoredProcedure\SP01_xStoredProced.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\setup1.exe=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\AUTPRX32.DLL=Yes
+C:\WINDOWS\SYSTEM\AUTMGR32.EXE=Yes
+C:\WINDOWS\SYSTEM\RACMGR32.EXE=Yes
+C:\WINDOWS\SYSTEM\RACREG32.DLL=Yes
+C:\WINDOWS\SYSTEM\ODKOB32.DLL=Yes
+
+[Package|SP01_xStoredProced Install|Configure Registry Files]
+Applicable=No
+
+[Package|SP01_xStoredProced Install|Configure Remote Servers]
+Applicable=No
+
+[Package|SP01_xStoredProced Install|Install Locations]
+C:\Rodrigo\GeradorStoredProcedure\SP01_xStoredProced.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\setup1.exe=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\AUTPRX32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\AUTMGR32.EXE=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RACMGR32.EXE=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RACREG32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ODKOB32.DLL=$(WinSysPath)
+
+[Package|SP01_xStoredProced Install|Configure Shared Files]
+Applicable=Yes
+C:\Rodrigo\GeradorStoredProcedure\SP01_xStoredProced.exe=No
+C:\Arquivos de Programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|SP01_xStoredProced Install|Distribution]
+Type=single
+Size=
+Title=SP01_xStoredProced
+
+[Package|SP01_xStoredProced Install|Package]
+PackageFolder=C:\Rodrigo\GeradorStoredProcedure\Package
+ProjectFolder=C:\Rodrigo\GeradorStoredProcedure
+ServerSideCab=
+File1=C:\Rodrigo\GeradorStoredProcedure\Package\setup.exe
+File2=C:\Rodrigo\GeradorStoredProcedure\Package\Setup.Lst
+File3=C:\Rodrigo\GeradorStoredProcedure\Package\SP01_xStoredProced.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
