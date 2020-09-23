@@ -1,0 +1,7 @@
+SP01wxStoredProced = 48, 24, 759, 507, C, 0, 0, 0, 0, C
+SP01mxMain = 111, 83, 699, 491, C
+SP01cxStoredProced = 195, 103, 642, 511, C
+SP01wxGeracao = 20, 103, 774, 559, C, 0, 0, 0, 0, C
+SP01mxFuncoesAPI = 195, 103, 642, 511, C
+SP01wxRelacionamentos = 10, 75, 798, 480, C, 0, 0, 0, 0, C
+SP01wxCamposRelac = 26, 79, 772, 484, C, 0, 0, 0, 0, C
